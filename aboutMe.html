@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+
+/* Formats the body of the html. */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/R.6d79fb48f84388e863d9e0d191979586?rik=QnYBpplslbmAAA&pid=ImgRaw&r=0");
+
+}
+/* Formats the html */
+html {
+  box-sizing: border-box;
+}
+
+/* Applies style to all objects in html. */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Formats the html page into 3 main columns.*/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+/* Formats the text imformation of the bottom half of the brochure with the text. */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  text-align: center;
+  background-color:rgb(255, 252, 252);
+}
+
+/* Formats the about me hearder just after the navigation bar.*/
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+/* Formats text grey. */
+.title {
+  color: grey;
+}
+
+/* Formats the button for furthre contact info. */
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 40px;
+
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Formats the button to turn different colour when mouse is over it. */
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<!--Creates reference links for navigation bar-->
+<div class="topnav">
+<a class = "active" href ="index.html">Home</a>
+<a href="aboutMe.html">About Me</a>
+<a href="workExperience.html">Work Experience</a>
+<a href ="contact.html">Contact</a>
+</div>
+
+<!--Creates header for the about me bar-->
+<div class="about-section">
+  <h1>About Me</h1>
+</div>
+
+<!--Formats persons brochure to center of the web page.-->
+<div class="column">
+  <div class="card">
+        <div class="container">
+      
+    </div>
+  </div>
+</div>
+
+<!--Creates the main text and pictures for the users brochure.-->
+<div class="row">
+  <div class="column">
+    <div class="card" style="padding: 10px;">
+      <img src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg" alt="Jane" style="width:100%;padding:10px;">
+      <h2>Noah Keane</h2>
+        <p class="title">Soft.Eng Student</p>
+        <p>Im a second year software engineering student that enjoys learning HTML,CSS,and Javascript. I eventually wish to work for a M.A.N.G company.</p>
+        <p class="title"> Email:</p> 
+        <p>Nkeane@example.con</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Creates footer class.-->
+<div class="footer">
+  <p>Noah Keane's website</p>
+</div>
+
+
+</body>
+</html>
+</html>
